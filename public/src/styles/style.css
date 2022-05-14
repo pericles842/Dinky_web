@@ -10,6 +10,7 @@
     font-family:Arial, Helvetica, sans-serif;
 }
 
+
 #image_header{
     width: 130px;
     height: 40px;
@@ -28,6 +29,8 @@ header{
     display: flex;
     width: 100%;
     justify-content: center;
+}
+.box_general{
     background-color: #e9e9e9;
 }
 #image_question{
@@ -35,6 +38,27 @@ header{
     margin: 0 90px 0 95px;
     width: 50px;
     height: 50px;
+}
+.box_tex{
+    text-align: center;
+    padding: 70px;
+}
+.h1{
+    font-family:Verdana,Geneva,sans-serif;
+    color: #142444;
+    font-size: 60px;
+}
+.dinky{
+    transition: 0.5s;
+    color: #142444;
+}
+.dinky:hover{
+    color: #ea546a;
+}
+.h4{
+    color: #142444;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 20px;
 }
 .box{
     background-color:  #fafafa;
