@@ -1,17 +1,16 @@
 *{
     padding: 0;
     margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
-    
 }
 .item_menu{
     display: flex;
     justify-content: center;
     background-color: #142444;
     color: #fafafa;
+    font-family:Arial, Helvetica, sans-serif;
 }
 
-img{
+#image_header{
     width: 130px;
     height: 40px;
 }
@@ -22,20 +21,77 @@ img{
 header{
     background-color:  #fafafa;
 }
-p{
+.p{
     padding: 5px;
 }
 .box_stuffed{
     display: flex;
+    width: 100%;
     justify-content: center;
-    background-image: url("fondo.jpg");
-    background-color: #fafafa;
+    background-color: #e9e9e9;
+}
+#image_question{
+    padding:10px;
+    margin: 0 90px 0 95px;
+    width: 50px;
+    height: 50px;
 }
 .box{
-    background-color:  #ea546a ;
-    padding: 50px;
-    margin: 10px;
+    background-color:  #fafafa;
+    /*padding: 50px;*/
+    margin: 60px 10px 60px 10px;
+    box-shadow: 6px 8px 5px #00000041
 }
 footer{
     background-color: #142444;
+}
+.box_footer{
+    background-color:  #ea546a ;
+    text-align: center;
+}
+.stuffed{
+    font-family:Verdana,Geneva,sans-serif;
+    margin: auto;
+    margin: 60px;
+    text-align: center;
+    font-size: 30px;
+    color: #142444;
+}
+.image_arrow{
+    width:30px;
+    height: 30px;
+    padding: 10px;
+}
+.image_arrow:hover{
+    transition: 0.5s;
+    transform: rotate(180deg);
+
+}
+#image_client{
+    padding:10px;
+    margin: 0 90px 0 95px;
+    width: 60px;
+    height: 60px;
+}
+#image_partners{
+    padding:12px;
+    margin: 0px 90px 0 95px;
+    width: 60px;
+    height: 60px;
+}
+.stuffed_three{
+    font-family: Verdana,Geneva,sans-serif;
+    text-align: center;
+    font-size: 30px;
+    color: #142444;
+    margin: auto;
+    margin: 70px;
+}
+.stuffed_two{
+    font-family: Verdana,Geneva,sans-serif;
+    text-align: center;
+    font-size: 30px;
+    color: #142444;
+    margin: auto;
+    margin: 55px;
 }
